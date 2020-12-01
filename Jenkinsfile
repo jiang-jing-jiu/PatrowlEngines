@@ -30,9 +30,9 @@ pipeline {
         PATROWL_ENGINE = 'nmap'
       }
       steps {
-        sh 'netstat -tulpn | grep 5001'
-        sh 'docker run -d --rm -p 3$ENGINE_PORT:3$ENGINE_PORT patrowl-$PATROWL_ENGINE'
+        sh 'netstat -tulpn'
         sh 'docker ps -a'
+        sh 'docker run -d --rm -p 3$ENGINE_PORT:3$ENGINE_PORT patrowl-$PATROWL_ENGINE'
       }
     }
 
