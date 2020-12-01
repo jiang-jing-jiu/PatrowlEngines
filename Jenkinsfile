@@ -30,7 +30,7 @@ pipeline {
         PATROWL_ENGINE = 'nmap'
       }
       steps {
-        sh 'docker run -d --rm -p $ENGINE_PORT:$ENGINE_PORT patrowl-$PATROWL_ENGINE'
+        sh 'docker run -d --rm -p 3$ENGINE_PORT:3$ENGINE_PORT patrowl-$PATROWL_ENGINE'
         sh 'docker ps -a'
       }
     }
