@@ -33,7 +33,7 @@ pipeline {
       steps {
         sh 'netstat -tulpn'
         sh 'docker ps -a'
-        sh 'docker run -d --rm --name patrowl-$PATROWL_ENGINE -p $ENGINE_PORT:$ENGINE_PORT patrowl-$PATROWL_ENGINE'
+        sh 'docker run -d --rm --name patrowl-$PATROWL_ENGINE -p $ENGINE_PORT:$ENGINE_PORT  --env DOCKER_HOST=tcp://docker:2376 --env DOCKER_CERT_PATH=/certs/client --env DOCKER_TLS_VERIFY=1  -v jenkins-docker-certs:/certs/client:ro    patrowl-$PATROWL_ENGINE'
       }
     }
 
