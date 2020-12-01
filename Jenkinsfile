@@ -21,7 +21,7 @@ pipeline {
       steps {
         sh 'docker --version'
         sh 'docker stop patrowl-$PATROWL_ENGINE || true'
-        sh 'docker build --name patrowl-$PATROWL_ENGINE  --tag patrowl-$PATROWL_ENGINE engines/$PATROWL_ENGINE'
+        sh 'docker build --tag patrowl-$PATROWL_ENGINE engines/$PATROWL_ENGINE'
       }
     }
 
@@ -33,7 +33,7 @@ pipeline {
       steps {
         sh 'netstat -tulpn'
         sh 'docker ps -a'
-        sh 'docker run -d --rm -p 3$ENGINE_PORT:3$ENGINE_PORT patrowl-$PATROWL_ENGINE'
+        sh 'docker run -d --rm --name patrowl-$PATROWL_ENGINE -p $ENGINE_PORT:$ENGINE_PORT patrowl-$PATROWL_ENGINE'
       }
     }
 
