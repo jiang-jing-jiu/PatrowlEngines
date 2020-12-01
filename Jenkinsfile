@@ -43,6 +43,8 @@ pipeline {
         PATROWL_ENGINE = 'nmap'
       }
       steps {
+        sh 'netstat -tulpn'
+        sh 'docker ps -a'
         sh 'pytest -s engines/$PATROWL_ENGINE/tests/test_*.py'
       }
     }
