@@ -20,7 +20,8 @@ pipeline {
       }
       steps {
         sh 'docker --version'
-        sh 'docker build --tag patrowl-$PATROWL_ENGINE engines/$PATROWL_ENGINE'
+        sh 'docker stop patrowl-$PATROWL_ENGINE || true'
+        sh 'docker build --name patrowl-$PATROWL_ENGINE  --tag patrowl-$PATROWL_ENGINE engines/$PATROWL_ENGINE'
       }
     }
 
