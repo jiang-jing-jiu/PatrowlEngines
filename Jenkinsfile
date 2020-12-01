@@ -9,7 +9,7 @@ pipeline {
       steps {
         sh 'python3 -m pip install -r ./engines/$PATROWL_ENGINE/requirements.txt'
         sh 'python3 -m pip install requests>=2.22.0'
-        sh 'gunicorn engine-$PATROWL_ENGINE:app -b 0.0.0.0:1$ENGINE_PORT --chdir $PATROWL_ENGINE > /dev/null &'
+        sh 'gunicorn engine-$PATROWL_ENGINE:app -b 0.0.0.0:1$ENGINE_PORT --chdir engines/$PATROWL_ENGINE > /dev/null &'
       }
     }
 
@@ -20,7 +20,7 @@ pipeline {
       }
       steps {
         sh 'docker --version'
-        sh 'docker build --tag patrowl-$PATROWL_ENGINE $PATROWL_ENGINE'
+        sh 'docker build --tag patrowl-$PATROWL_ENGINE engines/$PATROWL_ENGINE'
       }
     }
 
@@ -41,7 +41,7 @@ pipeline {
         PATROWL_ENGINE = 'nmap'
       }
       steps {
-        sh 'pytest -s $PATROWL_ENGINE/tests/test_*.py'
+        sh 'pytest -s engines/$PATROWL_ENGINE/tests/test_*.py'
       }
     }
 
