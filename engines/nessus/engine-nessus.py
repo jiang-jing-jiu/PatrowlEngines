@@ -32,7 +32,7 @@ POLICY_FOLDER = BASE_DIR + '/etc'
 this = sys.modules[__name__]
 table = TinyDB('db.json').table('table')
 this.nessscan = None
-this.scanner = {}
+this.scanner = {} #全局对象
 this.scans = {}
 
 
@@ -124,6 +124,7 @@ def _get_scanlist():
     return jsonify(res)
 
 
+# getfindings一并将results和reports生成
 @app.route('/engines/nessus/getfindings/<scan_id>')
 def getfindings(scan_id):
     res = {"page": "getfindings", "scan_id": scan_id}
@@ -180,6 +181,10 @@ def getfindings(scan_id):
         "summary": block_summary,
         "issues": block_issues
     })
+
+    # 在clean之前删除nessus中的相应任务
+    this.nessscan.scan_delete(item[0]["scan_name"])
+
     # Remove the scan from the active scan list
     clean_scan(scan_id)
 
@@ -198,6 +203,7 @@ def _json_serial(obj):
     raise TypeError("Type not serializable")
 
 
+# Patrowl manager会自动调用到这个api，从这个请求之后所有的查询请求Patrowl manager将完全代劳，无需再请求nessus engine，所以删除nessus需在getfindings里面clean函数之前
 @app.route('/engines/nessus/getreport/<scan_id>')
 def getreport(scan_id):
     scan_id = str(scan_id)
@@ -303,7 +309,7 @@ def start_scan():
             }
         })
         return jsonify(res)
-
+ 
     status()
     if this.scanner['status'] != "READY":
         res.update({
@@ -660,6 +666,7 @@ def info():
         "engine_config": _without_keys(this.scanner, secret_fields)})
 
 
+# genreport函数为引擎提供的直接下载nessus报告的api，patrowl manager没用到
 @app.route('/engines/nessus/genreport', methods=['GET'])
 def genreport(scan_id=None, report_format="html"):
     res = {"page": "genreport"}
@@ -829,4 +836,4 @@ if __name__ == '__main__':
         default=APP_DEBUG)
 
     options, _ = parser.parse_args()
-    app.run(debug=options.debug, host=options.host, port=int(options.port), processes=1)
+    app.run(debug=options.debug, host=options.host, port=int(options.port), threaded=True)
