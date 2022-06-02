@@ -1,0 +1,1551 @@
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+192.168.204.1 - - [13/May/2022 08:24:31] "GET /engines/awvs/me HTTP/1.1" 200 -
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+192.168.204.129 - - [14/May/2022 05:32:22] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:22] "GET /engines/awvs/status HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:22] "GET /engines/awvs/info HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:22] "POST /engines/awvs/startscan HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:22] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:25] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:28] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:31] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:34] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:37] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:40] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:43] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:47] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:50] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:53] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:56] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:32:59] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:02] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:05] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:08] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:11] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:14] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:17] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:20] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:23] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:26] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:30] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:33] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:36] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:39] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:42] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:45] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:48] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:51] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:54] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:57] "GET /engines/awvs/status/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:57] "GET /engines/awvs/getfindings/1579748 HTTP/1.1" 200 -
+192.168.204.129 - - [14/May/2022 05:33:57] "GET /engines/awvs/getreport/1579748 HTTP/1.1" 200 -
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+192.168.204.130 - - [20/May/2022 07:26:16] "GET /engines/awvs/status HTTP/1.1" 200 -
+192.168.204.130 - - [20/May/2022 07:26:18] "GET /engines/awvs/info HTTP/1.1" 200 -
+192.168.204.1 - - [20/May/2022 07:46:56] "GET /engines/awvs/clean HTTP/1.1" 200 -
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00µ\x01\x00\x00±\x03\x01\x16\x8c')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m µ  ± Dª«§êx#ñTÖÈ)Ðù¦[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad request version ('Ó\x18~·ÍÛd\x93\x11EK\x86\x99ýNÇ¶\x00\x00RÀ')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m  }  y ÀöO¾Ö^4Fí Ó~·ÍÛdEKýNÇ¶  RÀ[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad request version ('ò\x00\x00RÀ')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m µ  ±x#ÒÖ(Ì¢¹%É~Êµº`ú	ò  RÀ[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03ÓS{%R\x80_Á¾!^\x07'©[XX'áã\x9dØë\x8aÈÔù°\x8f\x08\x9fk\x00\x00ÌÀ,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m  üÓS{%R_Á¾!^'©[XX'áãØëÈÔù°k  ÌÀ,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀS §À+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀR ¦À$À( k jÀsÀw Ä Ã m ÅÀ#À' g @ÀrÀv ¾ ½ l ¿À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03Æ72\x91\x11\x97\x19\x88»fZ4÷¢\x86ó\x16\x8f')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m ä  àÆ72»fZ4÷¢óª8[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad request version ('À')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m² ®bPc6qJtAMUxoYzkbE1Sxa2vtKngZ5_f 4 ¢ £ÀÀÀ¦ ªÀ§ «ÀÀÀÀÌ­ÀÀ¢ ÀÀ£ À|À}Ìª ¤ ¥ÀÀ   ¡À~À ¦ §ÀÀÀ¬À®À+À­À¯À,ÀrÀÀsÀÌ©ÀÀÌ¬À/À0ÀvÀÀwÀÌ¨À-À.ÀtÀÀuÀÀ1À2ÀxÀÀyÀÀªÀ«À¤À¨ ¨À¥À© ©ÀÀÀÀÌ« ¬ ­ÀÀÀÀÌ®ÀÀ  ÀÀ¡ ÀzÀ{ c e   2 8 D   f        3 9 E      0 6 B      1 7 C       4 : F    ÀÀ	À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:15] code 400, message Bad request version ('À')
+192.168.204.131 - - [26/May/2022 10:03:15] "[35m[1m _ [bPcS4o1PEPRQKvwG7DD0UQui6cJ2zUX 4 ¢ £ÀÀÀ¦ ªÀ§ «ÀÀÀÀÌ­ÀÀ¢ ÀÀ£ À|À}Ìª ¤ ¥ÀÀ   ¡À~À ¦ §ÀÀÀ¬À®À+À­À¯À,ÀrÀÀsÀÌ©ÀÀÌ¬À/À0ÀvÀÀwÀÌ¨À-À.ÀtÀÀuÀÀ1À2ÀxÀÀyÀÀªÀ«À¤À¨ ¨À¥À© ©ÀÀÀÀÌ« ¬ ­ÀÀÀÀÌ®ÀÀ  ÀÀ¡ ÀzÀ{ c e   2 8 D   f        3 9 E      0 6 B      1 7 C       4 : F    ÀÀ	À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:25] "[32mGET / HTTP/1.0[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] code 400, message Bad HTTP/0.9 request type ('t3')
+192.168.204.131 - - [26/May/2022 10:03:27] "[35m[1mt3 12.2.1[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:27] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] code 400, message Bad request version ("ß\x07\x8båRs,Æ\x8fÝ\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+192.168.204.131 - - [26/May/2022 10:03:27] "[35m[1m  üoøEòm1ReÉISy_Þ³cp	j^× §}$¦äaÚyp±FSñë/ßåRs,ÆÝ ÒÀ,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀS §À+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀR ¦À$À( k jÀsÀw Ä Ã m ÅÀ#À' g @ÀrÀv ¾ ½ l ¿À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:27] code 400, message Bad request version ("ò°\x16\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+192.168.204.131 - - [26/May/2022 10:03:27] "[35m[1m  üD~`Ýëþi^!Dqv ÷%Öøâ°ÉD~c <0Ö^Våð¯[²¯®Y«¼ÀÚ7 íóJò° ÒÀ,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀS §À+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀR ¦À$À( k jÀsÀw Ä Ã m ÅÀ#À' g @ÀrÀv ¾ ½ l ¿À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:27] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:27] "GET /html/nhome.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:27] "GET /api/hpe-restapi.json HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:38] "GET /favicon2.iso HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:38] "GET /favicon.iso HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:40] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:40] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:40] "GET /aboutprinter.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:40] "GET /properties/configuration.php?tab=Status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:40] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:40] "GET /properties/description.dhtml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:40] "GET /properties/configuration.php?tab=Status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:40] "GET /header.php?tab=status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:41] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /login.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /this_server/all_settings.shtml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /authenticate/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /start.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /tmui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /netmri/config/userAdmin/login.tdf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /scgi-bin/platform.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /admin/login.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /en/main.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /mgmt/login?dest=%2Fmgmt%2Fgui%3Fp%3Dhome&reason=&username= HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /dms2/Login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:41] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /home.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /sws/data/sws_data.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /wcd/system.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /js/Device.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /ptz.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /admin/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /loginMsg.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] code 400, message Bad HTTP/0.9 request type ('GNUTELLA')
+192.168.204.131 - - [26/May/2022 10:03:42] "[35m[1mGNUTELLA CONNECT/0.6[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:42] code 400, message Bad HTTP/0.9 request type ('GNUTELLA')
+192.168.204.131 - - [26/May/2022 10:03:42] "[35m[1mGNUTELLA CONNECT/0.4[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /Home.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] code 400, message Bad request version ('Secure-HTTP/1.4')
+192.168.204.131 - - [26/May/2022 10:03:42] "[35m[1mSecure * Secure-HTTP/1.4[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:42] code 400, message Bad request version ('request')
+192.168.204.131 - - [26/May/2022 10:03:42] "[35m[1msome invalid request[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET http://rfi.nessus.org/check_proxy.html HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /admin_ui/mas/ent/login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET  HTTP/1.1[0m" 308 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /intruvert/jsp/admin/Login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /commoncgi/servlet/CCGIServlet?ApHost=PDT_InterScan_NT&CGIAlias=PDT_InterScan_NT&File=logout.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /xmldata?item=All HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /upnp/BasicDevice.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /MSWSMTP/Common/Authentication/Logon.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /robots.txt HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /sitemap.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /.cobalt HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /admin.back HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /file HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "GET /wavemaster.internal HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:42] "[31m[1mZYGUAR / HTTP/1.1[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:03:43] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:43] "OPTIONS / HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:43] "GET /_lm5BFBhGS_6.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:45] "TRACE /Nessus631576975.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:45] "GET /js/zimbraMail/share/model/ZmSettings.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "TRACK /Nessus631576975.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /xampp/index.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /Wsusadmin/Errors/BrowserSettings.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /nessus345678.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /nessus345678.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /robots.txt HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /favicon.ico HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /SnoopServlet/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /snoopservlet/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /snoop/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /servlet/SnoopServlet/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /servlet/snoopservlet/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /servlet/snoop/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /triton-help/en/first.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /console/login/LoginForm.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /wls-wsat/CoordinatorPortType HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /active.log HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[31m[1mSEARCH / HTTP/1.1[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[31m[1mPROPFIND / HTTP/1.1[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /usage/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "OPTIONS * HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /webalizer/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /images HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /main_internet.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /cfg/shortcuts HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:46] "GET /ui/login.action HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /hc/admin/login/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /qip HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /qip HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /portal/diag/index.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /menu.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "HEAD /someunexistantstuff3402672911067191074.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "HEAD /someunexistantstuff.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /someunexistantantsutff1822120817931334294.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /auth/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /VncViewer.jar HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /../../../../../../../../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /../../../../../../../../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /ui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET ../../../../../../../../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /ui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET ../../../../../../../../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /recoveryconsole/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET ..\..\..\..\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET ..\..\..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /..\..\..\..\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /..\..\..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwinnt%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwinnt%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwinnt%2fwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./.|./winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /../../../../../../../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "[32mGET  HTTP/1.1[0m" 308 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /../../../../../../../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /..\..\..\..\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /..\..\..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:47] "GET /..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET %5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cwinnt%5cwin.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /logon.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /.../.../.../.../.../.../.../.../.../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /.../.../.../.../.../.../.../.../.../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /...\...\...\...\...\...\...\...\...\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /...\...\...\...\...\...\...\...\...\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /..../..../..../..../..../..../..../..../..../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /..../..../..../..../..../..../..../..../..../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /....\....\....\....\....\....\....\....\....\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /....\....\....\....\....\....\....\....\....\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /ldap/cgi-bin/ldacgi.exe?Action=Substitute&Template=../../../../../boot.ini&Sub=LocalePath&LocalePath=enus1252 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /././././././../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /././././././../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET .\.\.\.\.\.\.\.\.\.\/windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET .\.\.\.\.\.\.\.\.\.\/winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /nessus\..\..\..\..\..\..\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /nessus\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /spotfire/about.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%80../%80../%80../%80../%80../%80../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%80../%80../%80../%80../%80../%80../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /tightvnc-jviewer.jar HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%C0.%C0./%C0.%C0./%C0.%C0./%C0.%C0./winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /VncViewer.jar HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET c:\boot.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/dir/../../../../../../../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/dir/../../../../../../../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /password HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/../../../../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /./../../../../../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET //../../../../../../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /..../..../..../..../..../..../..../..../..../..../..../..../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /../../../../../../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /.%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /././././././../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/%uff0e%uff0e/etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/dir/../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /scripts/fake.cgi?arg=/dir/../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET //etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /brightmail/viewLogin.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "POST /webui/apps/sdcss HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /.svn/entries HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /index.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /index.JSP HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /idm/login.jsp?lang=en&cntry= HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /userportal/webpages/myaccount/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /webconsole/webpages/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:48] "GET //admincp/login.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET ..\..\..\..\..\..\windows\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET ..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /solr/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /swvm/ConsoleContainer.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /Orion/Login.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /Orion/Login.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /lem/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "POST /av-centerd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /SilverStream/Meta/Tables/?access-mode=text HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /SilverStream HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /sitemap.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /sitemap/sitemap.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /map/sitemap.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /tarantella/cgi-bin/secure/ttawlogin.cgi/?action=bootstrap HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /stream/0 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /content/rRHS4rL_5B.mp3 HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /servlet/com.newatlanta.servletexec.JSP10Servlet/..%5c..%5cglobal.asa HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /servlet/com.newatlanta.servletexec.JSP10Servlet HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] code 400, message Bad request version ('\x1a"Ë\x8bÈ\x8fñÿ©\x05Ò#\x9c\x00\x00RÀ')
+192.168.204.131 - - [26/May/2022 10:03:49] "[35m[1m µ  ±g#$ö 6t3F»éxºÂ"ËÈñÿ©Ò#  RÀ[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET //wbm/login/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /Portal/Portal.mwsl?MainSelection=USFW&TabSelection=NONE&ClientArea=/Portal/usfw-login.mwsl&DataFile=NONE&TemplateFile=NONE HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /InitialPage.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /home.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /home.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /plc/webvisu.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /no_such_file_IvfmFpS9.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /html/iscscada.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /web/signin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /OEMSettings.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /main/web/status/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /broadWeb/bwRoot.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /SAPHostControl/?wsdl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /AdminTools/querybuilder/nn.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /search/results.stm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /sapmc/sapmc.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "POST /sawmillcl.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /sawmillcl.exe?ho+{COMPLETE_VERSION} HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /WebID/IISWebAgentIF.dll?postdata="><script>foo</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "POST /sawmill6cl.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "GET /sawmill6cl.exe?ho+{COMPLETE_VERSION} HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:03:49] "[32mGET /?ho+{COMPLETE_VERSION} HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /apps/zxtm/login.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /vncviewer.jar HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /photo/lang/ENG.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /cgi-bin/printenv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /cas/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /auth/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /1653559430/facts/localhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /1653559430/certificate/localhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /v2.0/environments/localhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /puppet-ca/v1/certificate/localhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /puppet/v3/facts/localhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /cgi-bin/pdesk.cgi?lang=../../../../../../../../etc/passwd%00 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /html/en/index.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET //perl?-v HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET //perl.exe?-v HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /login.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /exchweb/bin/auth/owalogon.asp?url=http://12345678910 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:50] "GET /otrs/index.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /av/api/1.0/system/local/tasks HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /.DS_Store HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /ws_utc/login.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /wls_utc/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /web-determinations/?CookieSet=true HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /cs/idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /idc/idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET //idcplg?IdcService=GET_ENVIRONMENT&IsJson=1 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /sgdadmin/faces/jsp/Version.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/page/portal/Design_Time_PG/Welcome HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /page/portal/Design_Time_PG/Welcome HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /gateway/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /mapviewer/omserver?getv=t HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /dndirector/dashboard/Show.dn HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /dndirector HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /btmui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /apex/f?p=nessuscheck HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /pls/apex/f?p=nessuscheck HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /cgi-bin/luci HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /dwr/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /cgi-bin/pub/pki?cmd=serverInfo HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "POST /something/maybe/ping HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /ofbizsetup/control/checkLogin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /ordermgr/control/checkLogin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /portal/pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /pls/portal/PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:51] "GET /pls/portal/DEV_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV1_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV2_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV3_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV4_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV5_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV6_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV7_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV8_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /pls/portal/DEV9_PORTAL_DEMO.ORG_CHART.SHOW HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /netbasic/websinfo.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /lcgi/sewse.nlm?sys:/novonyx/suitespot/docs/sewse/misc/allfield.jse HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /lcgi/sewse.nlm?sys:/novonyx/suitespot/docs/sewse/misc/test.jse HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/chkvol.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /perl/samples/lancgi.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/dir.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/glist.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /perl/samples/ndslogin.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/lancard.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /perl/samples/volscgi.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/set.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /perl/samples/env.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cutil/userlist.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/env.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cweb/env.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/fdir.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nsn/..%5Cwebdemo/fdir.bas HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /gwadmin-console/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /nps/servlet/portal HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /IDMProv/jsps/help/Help.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /logout HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "POST /perl/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /examples/jsp/source.jsp?../../../../system/autoexec.ncf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /help/contents.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /manual/ag/contents.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:52] "GET /images HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:59] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:59] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:59] "GET /emsam/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:59] "GET /ords/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:59] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:03:59] "GET /apex/listenerConfigure HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:59] "GET /axis2/services/CUPMService/ping HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:03:59] "GET /dfcweb/lib/cupm/nls/applicationproperties.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /baselining/version HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /nps/servlet/portalservice HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /qsoap.qap HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /login.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /nacos/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET //Help.action HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /mod_gzip_status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /uddipublic/default.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /uddi/default.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /sabin/SiteAdmin.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /reporter/client.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /admin/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /admin/LocalIndex.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /scmadmin/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /scmadmin/LocalIndex.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /index.exp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /core/orionSplashScreen.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:00] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:00] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /PassTrixMain.cc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /LoginPage.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /LoginPage.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /LoginPage.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /login.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /help/introduction/release-notes.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /servlet/GetProductVersion HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /event/index.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /netflow/html/aboutus.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /servlet/GetProductVersion HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /NCMContainer.cc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /configurations.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /servlet/GetProductVersion HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /index.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /servlet/GetProductVersion HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /servlet/GetProductVersion HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smconf.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smadmr5.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smency.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smftypes.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smsmvlog.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /stcenter.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smhelp.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /Sametime/buildinfo.txt HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smmsg.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smtime.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /smquar.nsf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /HNAP1/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /mve/help/en/inventory/am_about.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "POST /jsonrpc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:01] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:01] "GET /vsapres/web20/core/login.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /mainui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /assets/js/conf/global_config.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /./WEB-INF/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /invoker/EJBInvokerServlet HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /invoker/JMXInvokerServlet HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /web-console/ServerInfo.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /web-console/ServerInfo.jsp%00 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET %. HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /NASApp/nessus/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /NASApp/nessus/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /home.seam HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /interscan/cgi-bin/FtpSave.dll?I'm%20Here HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[31m[1mNESSUS / HTTP/1.0[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /iisprotect/admin/SiteAdmin.ASP?V_SiteName=&V_FirstTab=Groups&V_SecondTab=All&GroupName=nessus HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /iisprotect/admin/SiteAdmin.ASP?V_SiteName=&V_FirstTab=Groups&V_SecondTab=All&GroupName=nessus' HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.0[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET //lKw2eRux.asp HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /NULL.ida HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /iisadmpwd/aexp.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /iisadmpwd/aexp2.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:02] "GET /iisadmpwd/aexp2b.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /iisadmpwd/aexp3.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /iisadmpwd/aexp4.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /iisadmpwd/aexp4b.htr HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1910264250 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet9181347. HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1286812005.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet865046932.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet317331351.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /igsponsor HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet61167893.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet8751018.shtm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1268155464.shtml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1386340691.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet956305892.jspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /query.idq?CiTemplate=../../../../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1423198499.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /query.idq?CiTemplate=../../../../../winnt/win.ini%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1155475550.php3 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet757067397.php4 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet954502458.php5 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet1283113085.php6 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /niet742863503.cfm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /mail/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /builtin/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /cgi-bin/com5.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET  HTTP/1.1[0m" 308 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /tsp// HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /ap// HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /ssp// HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] code 400, message Bad request syntax ("\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03y\x90ÕÝùKºE\x0f\x01\x03uC\x96/5\x14ÝPN\x05\x12:FòeõêøÈÉ\x92\x00\x00ÌÀ,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+192.168.204.131 - - [26/May/2022 10:04:03] "[35m[1m  üyÕÝùKºEuC/5ÝPN:FòeõêøÈÉ  ÌÀ,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀS §À+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀR ¦À$À( k jÀsÀw Ä Ã m ÅÀ#À' g @ÀrÀv ¾ ½ l ¿À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /rcladmin/js/art_i18n/nls/art_i18n.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /rdweb/login/login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /ibmmq/console/login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /ibmmq/console/nls/en/strings.json HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /jts/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /dp/login.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:03] "GET /shared/userlogin.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:03] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /trc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /~nobody/etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mHEAD / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] code 505, message Invalid HTTP version (2.0)
+192.168.204.131 - - [26/May/2022 10:04:04] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET  HTTP/1.1[0m" 308 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /SiteScope/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /js/hpsum/hpsum-version.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /oo/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /xmldata?item=all HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /nnm/main HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /imc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /autopass/login_input HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /public/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /hazelcast/rest/cluster HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /com/novell/webaccess/WebAccessUninstall.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /portal HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /servlet/webacc?error=webacc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /go/pipelines HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /go/auth/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /users/sign_in HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /WEB-INF./web.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /setup HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /ews/index.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:04] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:04] "GET /_vti_bin/shtml.dll/_vti_rpc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "POST /_vti_bin/shtml.dll/_vti_rpc HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /_vti_bin/fpcount.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /f360/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET //login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /system/console?version=1.5 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /images/login_top.gif HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /images/logon_merge.gif HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /login/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /features HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET //login/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /acopia/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /ui/login/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /login.web HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /PUBLIC/ADMIN/INDEX.HTM HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "POST /spipe?Source=nessus HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /SE/appInfo.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /SE/EMC_SE.swf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /RSAarcher/Default.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /SE/EMC_SE.swf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /RSAarcher/Default.asp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /dtlt/home.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /web/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "POST /cgi-bin/mainfunction.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /bINQgFsO.ashx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /h4XBoebT.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "GET /_iJzU3Na.asmx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:05] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /ggct9Vee.ashx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /w2H7rH_5.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /DKSwH9ag.asmx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /TfdGDs8c.rem HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /X_XMloaj.soap HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /syslog.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /common/about.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "OPTIONS * HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /y_HBR3xO.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /devinfo.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /servlet/UDataArea?plugin=com.dell.oma.webplugins.AboutWebPlugin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /UDataArea?plugin=com.dell.oma.webplugins.AboutWebPlugin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /about HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /CVS/Entries HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /crossdomain.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /rest-service/reviews-v1/versionInfo HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /index.html?urlmaskfilter=<script>foo</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /<script>foo</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /servlet/webacc?User.lang=<script>foo</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /ConsoleHelp/default.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /CFIDE/administrator/settings/version.cfm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /cmf/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:06] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:06] "GET /clientaccesspolicy.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /Director HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /DesktopDirector HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /citrix/nfuse/default/login.asp?NFuse_LogoutId=&NFuse_MessageType=Error&NFuse_Message=<SCRIPT>alert('Ritchie')</SCRIPT>&ClientDetection=ON HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /citrix/MetaframeXP/default/login.asp?NFuse_LogoutId=&NFuse_MessageType=Error&NFuse_Message=<SCRIPT>alert('Ritchie')</SCRIPT>&ClientDetection=ON HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /ControllerWeb/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /client/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /login?redirects=10 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /vsmc.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.asp?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.asp?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.aspx?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.aspx?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.pl?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.pl?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cgi?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cgi?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.exe?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /ui/faces/Login.xhtml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.exe?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cfm?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.html?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.html?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.jsp?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.jsp?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.php?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.php?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.php3?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /app/ui/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.php3?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cfc?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.cfc?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.nsf?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.nsf?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.dll?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.dll?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.fts?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.fts?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.jspa?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.jspa?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.kspx?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.kspx?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.mscgi?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.mscgi?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.do?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /system.xml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.do?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.htm?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.htm?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.idc?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.idc?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.x?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /nw5kp6m3.x?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /getxml HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET <script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET /?<script>document.cookie=%22testcifh=7335;%22</script> HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET <meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET /?<meta%20http-equiv=Set-Cookie%20content=%22testcifh=7335%22> HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:07] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:07] "GET /login?redirects=10 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /cwhp/CSMSDesktop/about.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /CSCOnm/servlet/login/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET http://192.168.204.129:7001/authentication/login/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /lang_pack/EN.js HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /CSCOnm/servlet/login/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /about.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /admin/login.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /login?redirects=10 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /csamc52/webadmin?page=invalid&type=browser HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /admin/public/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /+CSCOE+/logon.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /nls/ApplicationProperties-en.json HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /securecgi-bin/CSUserCGI.exe?ver HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] "GET /securecgi-bin/CSUserCGI.exe?Init+0 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:08] code 400, message Bad request version ("\x8a\x88\x93%Y¥\x17\x80B\x00Ò\x13\x02\x13\x03\x13\x01À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À")
+192.168.204.131 - - [26/May/2022 10:04:08] "[35m[1m  ü7o²Ë®%B=ÌÃËÛð`hÇ¤r¾tÝ$] }F/[('RÐydÛoiÅéP%Y¥B ÒÀ,À0 £ Ì©Ì¨ÌªÀ¯À­À£ÀÀ]ÀaÀWÀS §À+À/ ¢ À®À¬À¢ÀÀ\À`ÀVÀR ¦À$À( k jÀsÀw Ä Ã m ÅÀ#À' g @ÀrÀv ¾ ½ l ¿À[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:04:08] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /%NETHOOD%/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /MM/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /nosuchfile-896969109-925186779.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /self_upgrade.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /webapps/login/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /webct/about.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /cgi-mod/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /cgi-bin/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /header.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /cgi-bin/kvm.cgi?&file=login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /snmx-cgi/fxm.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /web/#/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /platform-ui/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /server-info HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:09] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:09] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:10] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:10] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:10] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:10] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:10] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:10] "GET /pluto/portal/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:10] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:10] "GET /nifi/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:14] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:14] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:14] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:14] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:14] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /unified-console.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /api/v1/?format=api HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /api/v1/?format=api HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /libs/granite/core/content/login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /system/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:24] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:24] "GET /system/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /courier/web/1000@/wmLogin.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /servlet/admin?category=server&method=listAll&Authorization=Digest+username%3D%22admin%22,+response%3D%22ae9f86d6beaa3f9ecb9a5b7e072a4138%22,+nonce%3D%222b089ba7985a883ab2eddcd3539a6c94%22,+realm%3D%22adminRealm%22,+uri%3D%22%2Fservlet%2Fadmin%22&service= HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /chassis/config/GeneralChassisConfig.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /this_page_should_not_exist.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /qwe/qwe/index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET //${#context['xwork.MethodAccessor.denyMethodExecution']=!(#_memberAccess['allowStaticMethodAccess']=true),(@java.lang.Runtime@getRuntime()).exec('id').waitFor()}.action HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "POST /flex2gateway/http HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "POST /messagebroker/http HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "POST /blazeds/messagebroker/http HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "POST /lcds/messagebroker/http HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /Websense/cgi-bin/WsCgiLogin.exe?Page=login&UserName=nessus%22%3e%3cscript%3ealert('websense_username_xss.nasl')%3c%2fscript%3e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /webhost HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /console/faces/com_sun_web_ui/help/masthead.jsp?windowTitle=%3c/title%3e%3cscript%3ealert('sun_java_web_console_helpwindow_xss.nasl')%3c/script%3e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /console/faces/com_sun_web_ui/help/helpwindow.jsp?windowTitle=%3c/title%3e%3cscript%3ealert('sun_java_web_console_helpwindow_xss.nasl')%3c/script%3e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET /?"><script>alert('struts_sa_surl_xss.nasl-1653559465')</script> HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /LoginPage.do HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /home.jsf?autoScroll=0,275);%2f%2f--%3e%3c%2fscript%3e%3cscript%3ealert('myfaces_tomahawk_autoscroll_xss.nasl' HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /index.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:25] "GET /Default.aspx HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:26] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:26] "GET /item.fts?href=%22%3E%3Cscript%3Ealert(%22ftgate_44002.nasl%22)%3C%2Fscript%3E; HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:26] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:26] "GET /login?user=**%3Cscript%3EJavaScript:alert('cpanel_login_user_xss.nasl');%3C%2Fscript%3E HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:26] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:26] "GET /admin/statistics/ConfigureStatistics HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:26] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:26] "GET /altercast/AlterCast?op=%3cscript%3ealert(%22adobe_document_server_61.nasl%22)%3c%2fscript%3e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:26] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:26] "GET /nul.dbm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:28] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:28] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:28] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:30] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:30] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:33] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:33] "GET /engines/awvs/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:38] code 400, message Bad request version ('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00BEA\x03\x00\x00\x00\x14\x00\x00\x00\x00\x00\x00\x00\x00ÿÿÿÿÌn¥\x18\x00\x00\x00\x00BEA\x00\x00\x00\x00\x04\x00')
+192.168.204.131 - - [26/May/2022 10:04:38] "[35m[1mGIOP              NameServiceGIOP    Ä             x BEA    AdminServer        3IDL:weblogic/corba/cos/naming/NamingContextAny:1.0     8      BEA,           ¯×Ìn¥   rebind_any                     169.254.80.222  û                      ø       (IDL:omg.org/SendingContext/CodeBase:1.0           ¼     169.254.80.222  û     d BEA               (IDL:omg.org/SendingContext/CodeBase:1.0    12     BEA*           98$ë|         ,                        	                                      BEA           ÿÿÿÿÌn¥    BEA     [0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:04:40] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:43] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:43] "GET /getfile?key=/dummy.file HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /mxhelp/cgi-bin/namazucgi?lang=/../../../../../../../../../../../../../boot.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /index.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /index.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /web.config HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /scripts/w3who.dll HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /cgi-bin/filescan HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /struts/webconsole.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET /?class.classLoader.URLs[0]=struts_2_3_16_1_classloader_manipulation-1653559484 HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET //${1387784631+5}.action HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET //${%23w%3d%23context.get('com.opensymphony.xwork2.dispatcher.HttpServletResponse').getWriter(),%23w.print('Nessus%20Response HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET //struts/webconsole.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00µ\x01\x00\x00±\x03\x01¯ªÉfå\x8a\x05·GE-¡"d"')
+192.168.204.131 - - [26/May/2022 10:04:44] "[35m[1m µ  ±¯ªÉfå·GE-¡"d"µ)U®ÆBñOJ}lÞù  RÀ[0m" HTTPStatus.BAD_REQUEST -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:44] "GET /.anydomain.test HTTP/1.0" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /xsql/demo/airport/airport.xsql?xml-stylesheet=none HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /OvCgi/freeIPaddrs.ovpl?netnum=127.0.0.1&netmask=255.255.255.0&netid=127.0.0.1%20|%20id| HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /setup/setup-/../../log.jsp?log=info&mode=asc&lines=10 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /lcgi/sewse.nlm?sys:/novonyx/suitespot/docs/sewse/viewcode.jse+httplist+httplist/../../../../../system/autoexec.ncf HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /././.. HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET ././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././../../../../../../../../ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /version HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /apis HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /.%252e/.%252e/.%252e/.%252e/windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /.%252e/.%252e/.%252e/.%252e/winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /search?NS-query-pat=..\..\..\..\..\..\..\..\winnt\win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /search?NS-query-pat=../../../../../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /ifx/?LO=../../../../../etc/passwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /status.xsl. HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /xWnwrF8fwwLD HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /FWRsQhRsv7Ei HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /irrY4weCuYsM HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /KnHBulOhpWKV HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /r_RM_xyVBSZH HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /9uPgZBmDgu9T HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /5DV9wldcCM1M HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /hqepsNn8VJej HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /6kPTwR9RmGXu HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /iNkLvrlyRRva HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /dsCsliPTA7Kj HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /fHzpTBttxyM7 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /zd8R8cuEQb5e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /Mq2KFQuHyiGC HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /Mtimh7gbNOpv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /V_nzXdr6djur HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /RvV8PodGCDxD HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /WwZPz0sKOIwd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /qeKEAk4N_eUK HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:45] "GET /zsSvtEcr3Zxz HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /remote/fgt_lang?lang=/../../../..//////////dev/cmdb/sslvpn_websession HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "POST /FormHandler.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "POST http://127.0.0.1/iControl/iControlPortal.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /DB4Web/nop:23/foo HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /CFIDE/administrator/index.cfm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /cwhp/XmpFileDownloadServlet?parameterName=downloadDoc&downloadDirectory=..\..\..\Windows\System32\drivers\etc\&readmeText=1 HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /dev/ HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:46] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:46] "GET /axis/DirectDownload.jsp HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:47] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /_mt/mt.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /admin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /administrator.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /buglist.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi/mid.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/admin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/admin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/admin.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/administrator HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/administrator.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/agorn.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/bugreport.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/cart.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/clwarn.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/count.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/Count.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/faqmanager.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/FormHandler.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/FormMail.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/guestbook.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/help.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/hi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/index.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/index.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/login HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/login.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/mailit.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/mt/mt-check.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/mt/mt-load.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/mt-static/mt-check.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/mt-static/mt-load.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/ncbook/book.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/printenv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/printenv.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/quickstore.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/search HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/search.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/search/search.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/status.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/test.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/test.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/test-cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/upload.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/urlcount.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/viewcvs.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/wa HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/wa.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/wa.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin/whois.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-bin-sdb/printenv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-mod/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-sys/defaultwebpage.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /cgi-sys/entropysearch.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /index.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /index.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /nph-mr.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /query.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /session_login.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /show_bug.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /test HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /test.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /ucsm/isSamInstalled.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /whois.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /wp-login.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /wwwadmin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /wwwboard.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:47] "GET /xampp/cgi.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:48] "POST /cgi-bin/file_transfer.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /logon?onok=%22%3e%3cscript%3ealert('axon_logon_xss.nasl')%3c%2fscript%3e HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /error_page.htm HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /note.txt?F_notini=&T_note=&nomentreprise=blah&filenote=../../windows/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /note.txt?F_notini=&T_note=&nomentreprise=blah&filenote=../../winnt/win.ini HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /SiteScope/cgi/go.exe/SiteScope?page=eventLog&machine=&logName=System&account=administrator HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /..\pixfir~1\how_to_login.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /trace.axd HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:48] "GET /global.asa HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /index.jsp%00x HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /user_settings.cfg HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /rails_info/properties HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /index.html HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /_mt/mt.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /admin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /administrator.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /buglist.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi/mid.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/admin HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/admin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/admin.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/administrator HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/administrator.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/agorn.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/bugreport.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/cart.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/clwarn.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/count.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/Count.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/faqmanager.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/FormHandler.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/FormMail.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/guestbook.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/help.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/hi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/index.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/index.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/login.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/mailit.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/mt/mt-check.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/mt/mt-load.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/mt-static/mt-check.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/mt-static/mt-load.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/ncbook/book.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/printenv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/printenv.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/quickstore.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/search HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/search.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/search/search.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/status HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/status.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/test.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/test.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/test-cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/upload.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/urlcount.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/viewcvs.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/wa HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/wa.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/wa.exe HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin/whois.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-bin-sdb/printenv HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-mod/index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-sys/defaultwebpage.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /cgi-sys/entropysearch.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /index.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /index.pl HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /index.sh HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /nph-mr.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /query.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /session_login.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /show_bug.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /test HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /test.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /ucsm/isSamInstalled.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /whois.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /wp-login.php HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /wwwadmin.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /wwwboard.cgi HTTP/1.1" 200 -
+192.168.204.131 - - [26/May/2022 10:04:49] "GET /xampp/cgi.cgi HTTP/1.1" 200 -
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)
+192.168.204.130 - - [27/May/2022 07:27:47] "GET /engines/awvs/status HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:27:47] "GET /engines/awvs/info HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:08] "GET /engines/awvs/status HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:08] "POST /engines/awvs/startscan HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:08] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:14] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:19] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:24] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:29] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:34] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:39] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:44] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:49] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:54] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:28:59] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:04] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:09] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:14] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:20] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:25] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:30] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:35] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:40] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:45] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:50] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:29:55] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:00] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:05] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:10] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:15] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:20] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:25] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:30] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:35] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:40] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:45] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:50] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:30:55] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:01] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:06] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:11] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:16] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:21] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:26] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:31] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:36] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:41] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:46] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:51] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:31:56] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:01] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:06] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:11] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:16] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:21] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:26] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:31] "GET /engines/awvs/status/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:37] "GET /engines/awvs/getfindings/153 HTTP/1.1" 200 -
+192.168.204.130 - - [27/May/2022 07:32:37] "GET /engines/awvs/getreport/153 HTTP/1.1" 200 -
+192.168.204.1 - - [27/May/2022 07:34:57] "GET /engines/awvs/clean HTTP/1.1" 200 -
+ * Serving Flask app 'engine-awvs' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:7001
+ * Running on http://192.168.204.129:7001 (Press CTRL+C to quit)

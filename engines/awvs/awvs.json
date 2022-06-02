@@ -1,0 +1,13 @@
+{
+	"name": "AWVS",
+	"version": "14.6.211213163 Ubuntu 22.04",
+	"description": "Web Vulnerability Scanner",
+	"server_host": "0.0.0.0",
+	"server_port": "3443",
+	"server_username": "admin@admin.com",
+	"server_password": "1qaz!QAZ",
+	"api_url_": "https://127.0.0.1:3443/api/v1",
+	"api_key": "1986ad8c0a5b3df4d7028d5f3c06e936cea9c0a279df84b50b1ffc48aa10f3ede",
+	"default_policy": "DEFAULT.awvs",
+	"allowed_asset_types": ["url"]
+}
