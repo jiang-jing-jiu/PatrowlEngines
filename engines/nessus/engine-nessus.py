@@ -52,6 +52,18 @@ def index():
     return jsonify({"page": "index"})
 
 
+# 程序每次解析db.json之前进行文件校验，遇到有多个table的情况，只保留第一个table{}
+def _check_db_json():
+    with open("db.json",'r',encoding='utf-8') as f:
+        content = f.read()
+        if content.count('\"table\":') > 1:
+            second_tabel_index = content.find('\"table\":',10) #返回第一个table之后出现的首次"table":的下标值
+            new_f = open("db.json",'w')
+            new_f.write(content[0:second_tabel_index-1])
+            new_f.close()
+            table = TinyDB('db.json').table('table') # 重新载入全局变量
+
+
 def _loadconfig():
     conf_file = BASE_DIR+'/nessus.json'
     if os.path.exists(conf_file):
@@ -130,6 +142,7 @@ def getfindings(scan_id):
     res = {"page": "getfindings", "scan_id": scan_id}
     scan_id = str(scan_id)
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     if not item:
@@ -299,6 +312,7 @@ def start_scan():
     # @todo: validate parameters and options format
     res = {"page": "startscan"}
 
+    _check_db_json()
 
     # check the scanner is ready to start a new scan
     if table.count(Query().status == 'SCANNING') == APP_MAXSCANS:
@@ -483,6 +497,7 @@ def stop_scan(scan_id):
     res = {"page": "stopscan"}
     scan_id = str(scan_id)
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     # todo: use this.scans and nessus_scan_id
@@ -498,11 +513,8 @@ def stop_scan(scan_id):
     if this.nessscan.res != {}:
         res.update({"status": "error", "reason": this.nessscan.res['error']})
         return jsonify(res)
-    with transaction(table) as tr:
-        tr.update({
-            "status": "STOPPED",
-            "finished_at": int(time.time() * 1000)},
-            where('scan_id') == scan_id)
+    # 调用stop_scan，后端db.json将其删除
+    clean_scan(scan_id)
 
     res.update({"status": "success", "scan": item[0]})
     return jsonify(res)
@@ -512,6 +524,7 @@ def stop_scan(scan_id):
 def stop():
     res = {"page": "stopscans"}
 
+    _check_db_json()
     for item in table.all():
         scan_id = item.scan_id
         clean_scan(scan_id)
@@ -524,6 +537,7 @@ def stop():
 @app.route('/engines/nessus/clean', methods=['GET'])
 def clean():
     res = {"page": "clean"}
+    _check_db_json()
     table.truncate()
     _loadconfig()
     return jsonify(res)
@@ -535,6 +549,7 @@ def clean_scan(scan_id):
     scan_id = str(scan_id)
     res.update({"scan_id": scan_id})
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     if not item:
@@ -555,6 +570,7 @@ def status():
 
     res = {'page': 'status', "scans": this.scans}
 
+    _check_db_json()
     if table.count(Query().status == 'SCANNING') == APP_MAXSCANS:
         this.scanner['status'] = "BUSY"
         res.update({
@@ -613,6 +629,7 @@ def status():
 def scan_status(scan_id):
     scan_id = str(scan_id)
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     if not item:
@@ -672,6 +689,7 @@ def genreport(scan_id=None, report_format="html"):
     res = {"page": "genreport"}
     scan_id = str(scan_id)
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     if not item:
@@ -718,6 +736,7 @@ def getrawreports(scan_id=None, report_format="html"):
     res = {"page": "getreport"}
     scan_id = str(scan_id)
 
+    _check_db_json()
     item = table.search(Query().scan_id == scan_id)
 
     if not scan_id and not request.args.get("scan_id"):
