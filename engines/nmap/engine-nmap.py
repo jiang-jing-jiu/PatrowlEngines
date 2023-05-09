@@ -182,6 +182,11 @@ def _scan_thread(scan_id):
     if "ports" in options:
         ports = ",".join(options['ports'])
     # del this.scans[scan_id]['options']['ports']
+    
+    # to adapte multi scripts ———— 2023-05-09
+    scripts = None
+    if "script" in options:
+        scripts = ",".join(options['script'])[:-4]
 
     app.logger.debug('options: %s', options)
 
@@ -197,8 +202,10 @@ def _scan_thread(scan_id):
             cmd += " -p{}".format(ports)
         if opt_key == "top_ports":  # /!\ @todo / Security issue: Sanitize parameters here
             cmd += " --top-ports {}".format(options.get(opt_key))
-        if opt_key == "script" and options.get(opt_key).endswith('.nse'):  # /!\ @todo / Security issue: Sanitize parameters here
-            cmd += " --script {}".format(options.get(opt_key))
+        # if opt_key == "script" and options.get(opt_key).endswith('.nse'):  # /!\ @todo / Security issue: Sanitize parameters here
+            # cmd += " --script {}".format(options.get(opt_key))
+        if opt_key == "script" and scripts is not None:
+            cmd += " --script {}".format(scripts)
         if opt_key == "script_args":  # /!\ @todo / Security issue: Sanitize parameters here
             cmd += " --script-args {}".format(options.get(opt_key))
         if opt_key == "host_file_path":  # /!\ @todo / Security issue: Sanitize parameters here
