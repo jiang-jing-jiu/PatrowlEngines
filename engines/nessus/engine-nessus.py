@@ -513,7 +513,11 @@ def stop_scan(scan_id):
     if this.nessscan.res != {}:
         res.update({"status": "error", "reason": this.nessscan.res['error']})
         return jsonify(res)
-    # 调用stop_scan，后端db.json将其删除
+    # 原先调用stop_scan，仅为修改db.json中对应scan的status为stopped，但是Patrowl整个架构对于引擎中任务状态是不维护的
+    # 表现为：Patrowl前端暂停的任务，重启后会以新的任务开始，而不会找到db.json中之前修改为stopped的那条
+    # 因此，对于调用stop_scan的情况，先删除后端nessus的任务，再删除db.json的内容
+    this.nessscan.scan_delete(item[0]["scan_name"]) 
+    
     clean_scan(scan_id)
 
     res.update({"status": "success", "scan": item[0]})
@@ -527,7 +531,7 @@ def stop():
     _check_db_json()
     for item in table.all():
         scan_id = item.scan_id
-        clean_scan(scan_id)
+        stop_scan(scan_id) #对于每个scan_id调用stop_scan进行停止操作
 
     res.update({"status": "success", "details": {
         "timestamp": int(time.time())}})
