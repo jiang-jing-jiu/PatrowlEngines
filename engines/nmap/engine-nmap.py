@@ -186,7 +186,7 @@ def _scan_thread(scan_id):
     # to adapte multi scripts ———— 2023-05-09
     scripts = None
     if "script" in options:
-        scripts = ",".join(options['script'])[:-4]
+        scripts = ",".join(options['script']).replace(".nse","")
 
     app.logger.debug('options: %s', options)
 
