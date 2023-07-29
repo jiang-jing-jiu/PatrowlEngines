@@ -21,7 +21,7 @@ app = Flask(__name__)
 APP_DEBUG = False
 APP_HOST = "0.0.0.0"
 APP_PORT = 5001
-APP_MAXSCANS = int(os.environ.get('APP_MAXSCANS', 20)) # 2023-07-24官方为5，此处根据4C8G计算资源调整为20
+APP_MAXSCANS = int(os.environ.get('APP_MAXSCANS', 15)) # 2023-07-24官方为5，此处根据4C8G计算资源调整为15
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 this = sys.modules[__name__]
