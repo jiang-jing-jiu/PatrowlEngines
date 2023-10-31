@@ -24,7 +24,7 @@ app = Flask(__name__)
 APP_DEBUG = os.environ.get('APP_DEBUG', '').lower() in ['true', '1', 'on', 'yes', 'y']
 APP_HOST = "0.0.0.0"
 APP_PORT = 5002
-APP_MAXSCANS = int(os.environ.get('APP_MAXSCANS', 20))
+APP_MAXSCANS = int(os.environ.get('APP_MAXSCANS', 5)) # nessus默认并行任务数为5，从cli处也最多只下发5个
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 UPLOAD_FOLDER = BASE_DIR + '/tmp'
