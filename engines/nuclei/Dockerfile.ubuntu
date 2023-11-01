@@ -1,0 +1,30 @@
+FROM ubuntu:latest
+
+LABEL MAINTAINER="jiangyuchao"
+LABEL description="Nuclei Patrowl Engine"
+LABEL Version="1.0.0"
+
+VOLUME ["/usr/bin/nuclei", "/root/nuclei-templates"]
+
+# Set the working directory
+RUN mkdir -p /opt/patrowl-engines/nuclei \
+    && mkdir -p /opt/patrowl-engines/nuclei/results \
+    && mkdir -p /opt/patrowl-engines/nuclei/logs 
+WORKDIR /opt/patrowl-engines/nuclei
+
+# Copy the current directory contents into the container at /
+COPY engine-nuclei.py nuclei.json requirements.txt README.md ./
+
+# 安装依赖项并清理缓存
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends python3 python3-pip python3-dev gcc \
+    && pip3 install --upgrade pip \
+    && pip3 install --trusted-host pypi.python.org -r requirements.txt \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# TCP端口
+EXPOSE 8001
+
+# 运行应用
+CMD ["gunicorn", "engine-nuclei:app", "-b", "0.0.0.0:8001", "--access-logfile", "-"]

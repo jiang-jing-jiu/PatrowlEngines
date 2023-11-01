@@ -1,0 +1,28 @@
+---
+
+build-push-nuclei:
+  variables:
+    STACK: "engine-nuclei"
+    FOLDER_PATH: "engines/nuclei"
+    PORT: 5016
+  before_script:
+    - VERSION=$(cat $CI_PROJECT_DIR/$FOLDER_PATH/VERSION | cut -d " " -f1)
+    ### Issue with variable expansion in variable section
+  extends: .build-push
+
+test-build-nuclei:
+  variables:
+    STACK: "engine-nuclei"
+    FOLDER_PATH: "engines/nuclei"
+    PORT: 5016
+  extends: .test-build
+
+# run-job-nuclei:
+#   variables:
+#     STACK: "engine-nuclei"
+#     FOLDER_PATH: "engines/nuclei"
+#     PORT: 5016
+#   before_script:
+#     - VERSION=$(cat $CI_PROJECT_DIR/$FOLDER_PATH/VERSION | cut -d " " -f1)
+#     ### Issue with variable expansion in variable section
+#   extends: .run-job
