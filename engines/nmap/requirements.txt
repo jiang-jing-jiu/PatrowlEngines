@@ -7,5 +7,5 @@ MarkupSafe
 PatrowlEnginesUtils>=1.0.1
 psutil
 urllib3
-werkzeug
+werkzeug==2.2.2
 requests

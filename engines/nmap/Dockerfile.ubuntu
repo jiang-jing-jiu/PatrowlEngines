@@ -18,7 +18,8 @@ RUN curl -OL https://nmap.org/dist/nmap-7.94.tar.bz2 \
     && make \
     && make install \
     && cd .. \
-    && rm -rf nmap-7.94.tar.bz2 nmap-7.94
+    && rm -rf nmap-7.94.tar.bz2 nmap-7.94 \
+    && rm -rf /usr/local/share/nmap/scripts 
 
 # Set the working directory
 RUN mkdir -p /opt/patrowl-engines/nmap \
@@ -30,6 +31,8 @@ WORKDIR /opt/patrowl-engines/nmap
 COPY __init__.py engine-nmap.py requirements.txt README.md ./
 COPY nmap.json.sample nmap.json
 COPY libs/ libs/
+# 后续增加scripts构建新的镜像，需要将这个文件夹内容进行调整
+COPY scripts/ /usr/local/share/nmap/scripts
 
 # 安装依赖项并清理缓存
 RUN apt-get update \
